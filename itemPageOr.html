@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="he">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Item page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light header-nav">
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#sidebarModal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand d-lg-none mx-auto website-logo top-0" href="#">
+          <a href="listPageOr.html"><img src="images/logo.png" width="65px" class="website-logo" style="top:0%;"></a>
+        </a>
+        <div class="collapse navbar-collapse" id="nav" style="width:100%;">
+          <ul class="navbar-nav ml-0 m-0 p-3 p-lg-0">
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">Community</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">Donation</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="#">Store nearby</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="itemEdit.html">Add item</a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="search.html">Search</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid">
+          <div class="modal left fade menu" id="sidebarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog position-fixed m-auto" role="document">
+              <div class="modal-content h-100">
+                <div class="modal-body w-100">
+                  <ul class="position-fixed w-100" style="right:11%;">
+                    <li><a class="nav-item nav-link active" style="border-bottom: 1px solid #dcdcdc;" href="#"><img src="images/persona-or.jpeg" class="p-2" /> My profile</a></li>
+                    <li><a href="#" style="border-bottom: 1px solid #dcdcdc;" class="nav-item nav-link"><img src="images/community.png" class="p-2" /> Community</a></li>
+                    <li><a href="#" style="border-bottom: 1px solid #dcdcdc;" class="nav-item nav-link"><img src="images/solidarity.png" class="p-2" /> Donation</a></li>
+                    <li><a href="#" style="border-bottom: 1px solid #dcdcdc;" class="nav-item nav-link"><img src="images/store.png" class="p-2" /> Store nearby</a></li>
+                    <li><a href="#" style="border-bottom: 1px solid #dcdcdc;" class="nav-item nav-link"><img src="images/settings.png" class="p-2" /> Settings</a></li>
+                    <li><a href="#" class="nav-item nav-link"><img src="images/logout.png" class="p-2" /> Logout</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-logo-centered website-logo top-10">
+          <a class="d-none d-lg-block" href="listPageOr.html"><img src="images/logo.png" width="65px"></a>
+        </div>
+        <div class="user-section top-0 left-0">
+          <div class="dropdown show user-welcome-msg">
+            <a class="btn dropdown-toggle p-0" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hi, Kim
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">My profile</a>
+              <a class="dropdown-item" href="#">Settings</a>
+              <a class="dropdown-item" href="#">Logout</a>
+            </div>
+          </div>
+          <img class="user-welcome-image" src="images/persona-or.jpeg" alt="" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid mt-4 w-50-m-95 text-center">
+        <div class="row justify-content-center">
+          <h2 class="mb-4 text-lg-center">Shiny shoe</h2>
+          <div class="item-page-example" style="margin-top:0;">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                  <figure class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="images/shoes-item.jpg" alt=""/>
+                    <figcaption>
+                      <div class="float-left">
+                        <img class="rating-icon" src="images/leaf_icon_full.png" alt="" />
+                        <img class="rating-icon" src="images/leaf_icon.png" alt="" />
+                        <img class="rating-icon" src="images/leaf_icon.png" alt="" />
+                      </div>
+                      <div class="float-right">
+                        <img class="viewers" src="images/views_icon.png" alt="" /><Br />
+                        <div class="caption center-block viewers-number">0</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                  <h5 class="text-left">Created by Or Moshe </h5>
+                  <div class="mt-1 mb-0 text-muted text-black text-left">
+                    <span>What is needed?</span>
+                  </div>
+                  <p class="text-truncate mb-2 mt-2 mb-md-8">
+                    <img src="images/products.png" alt="" width="200px" />
+                  </p>
+                  <div class="item-page-note">
+                    <img src="images/clock_icon.png" alt="" />
+                    <span>1 hour</span>
+                  </div>
+                  <div class="item-page-note">
+                    <img src="images/steps_icon.png" alt="" />
+                    <span>2 steps</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-lg-center mt-4">
+          <h6 class="text-lg-center">The steps to upgrage the garment:</h6>
+          <div class="item-page-example justify-content-center">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                  <figure class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="images/shoes-step1.jpg" alt=""/>
+                  </figure>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                  <h6 class="text-left">Step 1:</h6>
+                  <p class="mb-2 mt-2 mb-md-8 text-left">
+                    We will cut cardboard in the dimensions of the sole of the shoe and use glue. Glue should be put along the entire length of the cardboard. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-page-example">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                  <figure class="bg-image hover-zoom ripple rounded ripple-surface">
+                    <img src="images/shoes-step2.jpg" alt=""/>
+                  </figure>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                  <h6 class="text-left">Step 2:</h6>
+                  <p class="mb-2 mt-2 mb-md-8 text-left">
+                    The decorations should be pasted as you wish along the entire length of the shoe. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </main>
+
+    <div style="flex-grow:1;"></div>
+
+    <footer>
+      <div class="container-fluid">
+        <ul class="d-lg-none">
+          <li><a href="search.html" alt=""><img src="images/search.png" alt="" /></a></li>
+          <li><a href="index.html" alt=""><img src="images/home.png" alt="" /></a></li>
+          <li><a href="itemEdit.html" alt=""><img src="images/camera.png" alt="" /></a></li>
+        </ul>
+        <div class="d-none d-lg-block text-center py-3">
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

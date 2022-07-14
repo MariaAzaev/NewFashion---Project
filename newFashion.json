@@ -1,0 +1,36 @@
+{
+    "categorys":[
+        {
+            "category_id" : "123",
+            "category_name" : "shirts"
+        },
+        {
+            "category_id" : "456",
+            "category_name" : "dresses"
+        },
+        {
+            "category_id" : "789",
+            "category_name" : "shoes"
+        },
+        {
+            "category_id" : "159",
+            "category_name" : "pants"
+        },
+        {
+            "category_id" : "357",
+            "category_name" : "skirts"
+        },
+        {
+            "category_id" : "247",
+            "category_name" : "accessories"
+        },
+        {
+            "category_id" : "365",
+            "category_name" : "coats"
+        },
+        {
+            "category_id" : "986",
+            "category_name" : "suits"
+        }
+    ]
+}
